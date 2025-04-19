@@ -1,15 +1,22 @@
 {
-  "name": "soullink-demo",
+  "name": "soullink-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@giphy/js-fetch-api": "^5.1.0",
+    "@giphy/react-components": "^9.2.0",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.0",
+    "emoji-mart": "^5.5.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-scripts": "5.0.1",
+    "socket.io-client": "^4.7.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -35,5 +42,20 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "SoulLink - A messaging app for couples and friends with a focus on the Indian market",
+  "author": "OpenHands",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rv-experiments/chinky-chats.git"
+  },
+  "keywords": [
+    "messaging",
+    "chat",
+    "couples",
+    "india",
+    "react",
+    "soullink"
+  ]
 }
