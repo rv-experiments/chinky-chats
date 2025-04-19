@@ -26,14 +26,14 @@ const ChatScreen = () => {
     // Sample messages for demonstration
     {
       id: '1',
-      text: 'Hi there! I'm thinking about you today.',
+      text: "Hi there! I'm thinking about you today.",
       sender: 'partner',
       timestamp: new Date(Date.now() - 3600000).toISOString(),
       read: true
     },
     {
       id: '2',
-      text: 'That's so sweet! I've been thinking about you too.',
+      text: "That's so sweet! I've been thinking about you too.",
       sender: 'self',
       timestamp: new Date(Date.now() - 3500000).toISOString(),
       read: true
@@ -108,7 +108,7 @@ const ChatScreen = () => {
             if (Math.random() > 0.5) {
               const newPartnerMessage = {
                 id: Date.now().toString(),
-                text: 'I miss you! How's your day going?',
+                text: "I miss you! How's your day going?",
                 sender: 'partner',
                 timestamp: new Date().toISOString(),
                 read: false
